@@ -1,0 +1,189 @@
+/*font-family: 'Rubik', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Cabin', sans-serif;
+*/
+
+body {
+  font-family: 'Cabin', sans-serif;
+  background: black;
+  padding: 0;
+  margin: 0;
+}
+
+.top {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  padding: 10px;
+  font-size: 38px;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+
+}
+
+.wrapper div {
+  border: 5px rgb(0, 0, 0, 0) solid;
+  padding: 10px;
+}
+
+.box-1 {
+  flex: 1;
+  transition: 0.5s;
+  background-color: #000000;
+  color: azure;
+  
+}
+
+.box-2 {
+  flex: 1;
+  transition: 0.5s;
+  background-color: #000000;
+  color: azure;
+}
+
+.box-3 {
+  flex: 1;
+  transition: 0.5s;
+  background-color: #000000;
+  color: azure;
+}
+
+
+.box-4 {
+  flex: 1;
+  transition: 0.5s;
+  background-color: #000000;
+  color: azure;
+}
+
+.box-1:hover {
+  flex: 1.25;
+  transition: 1s;
+  background-color:#e6194c;
+  color: #000000;
+}
+
+.box-2:hover {
+  flex: 1.25;
+  transition: 1s;
+  background-color:#f58231;
+  color: #000000;
+}
+
+.box-3:hover {
+  flex: 1.25;
+  transition: 1s;
+  background-color:#3498db;
+  color: #000000;
+}
+
+
+.box-4:hover {
+  flex: 1.25;
+  transition: 1s;
+  background-color:#2ecc71;
+  color: #000000;
+}
+
+.tiltd {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 4px 4px #e6194c;
+}
+
+.me {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 4px 4px #f58231;
+}
+
+.secret {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 4px 4px #3498db;
+}
+
+.contact {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 4px 4px #2ecc71;
+}
+
+.dwn-1{
+  color:#e6194c;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 20px;
+  transition: 10s;
+}
+
+.dwn-1:hover{
+  color:black;
+  transition: 1s;
+}
+
+.dwn-2{
+  color:#f58231;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 20px;
+  transition: 10s;
+}
+
+.dwn-2:hover{
+  color:black;
+  transition: 1s;
+}
+
+.dwn-3{
+  color:#3498db;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 20px;
+  transition: 10s;
+}
+
+.dwn-3:hover{
+  color:black;
+  transition: 1s;
+}
+
+.dwn-4{
+  color:#2ecc71;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 20px;
+  transition: 10s;
+}
+
+.dwn-4:hover{
+  color:black;
+  transition: 1s;
+}
+.box-1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.box-2 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.box-3 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.box-4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
