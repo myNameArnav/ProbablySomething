@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Advent+Pro:100,200,300,400,500,600,700");
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3498db;
+}
+
+.content {
+    margin: 5rem 10rem;
+}
+
+.heading {
+    font-family: "Advent Pro";
+    font-size: 10rem;
+    color: #f58231;
+    line-height: 1.735;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: -5rem;
+}
+
+.sub-heading {
+    font-family: "Rubik";
+    font-size: 2rem;
+    color: #000;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: inherit;
+}
+
+.projects-list {
+    margin: auto;
+    padding: 1rem;
+    font-family: "Rubik";
+    display: grid;
+    grid-template-columns: auto auto;
+    border-style: double;
+}
+
+
+/* .list {
+    border-style: solid;
+} */
+
+.list:nth-of-type(odd) {
+    margin: auto;
+    color: #f58231;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding: 0.5rem;
+}
+
+.list:nth-of-type(even) {
+    background-color: #2e88c3;
+    padding: 1rem;
+    border-style: dashed;
+    margin: 0.5rem;
+}
+
+.stats {
+    margin-top: 5rem;
+    font-family: "Rubik";
+    font-size: 2rem;
+}
+
+.github-card {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.list img {
+    height: 15rem;
+}
+
+.svg {
+    margin-top: -12rem;
+    padding: 0;
+}
+
+img {
+    width: auto;
+    transition: 1s;
+}
