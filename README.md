@@ -2,6 +2,8 @@
 
 <s>This is a fun idea for a main page, uses hover and a little sweat.</s>
 
+[Live link](https://mynamearnav.github.io/ProbablySomething/)
+
 Now its my resume website, not responsive yet.
 
 A little snippet
